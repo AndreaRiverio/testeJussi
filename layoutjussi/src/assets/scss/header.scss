@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    &__left{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+        }
+    }
+
+    &__rigth{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__search{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid $grey-color;
+            border-radius: 30px;
+            padding: 8px;
+            width: 70%;
+        
+            input{
+                border:none;
+            }
+        }
+
+        a{
+            text-decoration: none;
+        }
+    }
+}

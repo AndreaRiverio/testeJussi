@@ -1,0 +1,18 @@
+
+.footer{
+    background: $black-color;
+    @include pageMargin;
+
+    .line_one{
+        display: flex;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        justify-content: space-between;
+    }
+    .redes_sociais{
+        
+        img{
+            padding-left: 12px;
+        }
+    }
+}
